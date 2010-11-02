@@ -18,6 +18,9 @@ Run the generator
 
   rails generate nested_form:install
 
+  # Or if you put your scripts in a non-standard directory
+  rails generate nested_form:install --path custom/path/nested_form.js
+
 == Usage
 
 Running the generator will add a file at public/javascripts/nested_form.js which should be included after jQuery.
