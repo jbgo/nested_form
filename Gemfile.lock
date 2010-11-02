@@ -89,4 +89,4 @@ DEPENDENCIES
   nested_form!
   rails (~> 3.0.0)
   rr
-  rspec (~> 2.0.0.beta.22)
+  rspec (~> 2.0.0)
