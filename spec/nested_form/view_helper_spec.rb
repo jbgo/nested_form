@@ -26,7 +26,8 @@ describe NestedForm::ViewHelper do
     @template.after_nested_form(:tasks) { @template.concat("123") }
     @template.after_nested_form(:milestones) { @template.concat("456") }
     @template.nested_form_for(Project.new) {}
-    @template.output_buffer.should include("123456")
+    @template.output_buffer.should include("123")
+    @template.output_buffer.should include("456")
   end
 end
 
